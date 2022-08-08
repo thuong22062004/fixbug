@@ -1,0 +1,10 @@
+//comp A -> Comp C
+import AppContext from './context.js'
+import{useState,createContext} from 'react'
+function App(){
+   return <div class='App'>
+      <button>Toggle Theme</button>
+      <AppContext />
+   </div>
+}
+export default App;
